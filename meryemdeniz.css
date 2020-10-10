@@ -78,7 +78,7 @@ body
 .content h5{
 
     color:rgb(250, 172, 26);
-    padding: 1% 5%;
+    padding: 0 5%;
     font-family:dosis-bold;
     font-weight: 500;
     font-size:30px;
@@ -117,4 +117,60 @@ body
 .meryem
 {
     color:rgb(54, 167, 243);
+}
+
+
+.anilar
+{
+    float:left;
+    max-width:1500px;
+    width:100%;
+    margin:0 auto;
+    height:auto;
+}
+.ani
+{
+    max-width:1000px;
+    width:100%;
+    margin:0 auto;
+    height:auto;
+    margin-top:2%;
+    background-color:rgb(175, 130, 88);
+    border-radius:4px;
+}
+.ani h3
+{
+    text-align:center;
+    padding:1%;
+    padding-top:2%;
+    font-family:dosis-medium;
+    letter-spacing:0.75px;
+}
+.ani p
+{
+    padding:1%;
+    font-family:dosis-medium;
+    float:left;
+}
+.ani h6
+{
+    padding:2%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:15px;
+    font-weight: 100;
+}
+.ani-foto
+{
+    float:left;
+    max-width:240px;
+    width:100%;
+    border-radius:2px;
+    padding-right:2%;
+    padding-left:1%;
+}
+@font-face{
+    font-family: 'dosis-medium';
+    src: url(fonts/Dosis-Medium.ttf);
+    font-weight: 100;
+    font-style: normal;
 }
